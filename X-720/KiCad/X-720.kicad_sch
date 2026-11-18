@@ -1,0 +1,16 @@
+(kicad_sch (version 20230121) (generator eeschema)
+(uuid 96f53530-84be-48ad-bf9c-3409c9f42f53)
+(paper "A3")
+(title_block (title "X-720 recreation") (date "2026-11-18") (rev "0.1") (company "Canon X-720 recreation") (comment 1 "Top level"))
+(lib_symbols
+
+)
+(text "Canon X-720 colour video interface - recreation" (at 25.00 30.00 0) (effects (font (size 3 3)) (justify left bottom)) (uuid 668dbfe3-aaf2-43d8-8309-8732b73cd42e))
+(text "Planned sheets:\n  1. Bus Interface  (this hierarchy, done: v0.1)\n  2. Video Core     MC6847, 3 x 2 KB VRAM, CG ROM, +1K page logic, address mux\n  3. TV BASIC ROM   A000-AFFF, socketed EEPROM\n  4. Video Output   RGB/sync/sound to SCART (French version)\n  5. Power          NiCd + adaptor, 5 V regulator, VCC2 level detect\n\nNets between sheets use global labels.  See X-720/README.md for sources." (at 25.00 120.00 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid 555edaa7-cb9b-439c-8304-00d960c386d5))
+(sheet (at 30 45) (size 60 35) (fields_autoplaced) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid 441d5bd7-145a-4b53-9a3e-172683625c3a)
+  (property "Sheetname" "Bus Interface" (at 30 44.29 0) (effects (font (size 1.27 1.27)) (justify left bottom)))
+  (property "Sheetfile" "bus_interface.kicad_sch" (at 30 80.59 0) (effects (font (size 1.27 1.27)) (justify left top)))
+  (instances (project "X-720" (path "/96f53530-84be-48ad-bf9c-3409c9f42f53" (page "2"))))
+)
+(sheet_instances (path "/" (page "1")))
+)

@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "filename": "X-720.kicad_pro",
+    "version": 1
+  },
+  "boards": [],
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "schematic": {
+    "legacy_lib_dir": "",
+    "legacy_lib_list": []
+  },
+  "sheets": [
+    [
+      "96f53530-84be-48ad-bf9c-3409c9f42f53",
+      "Root"
+    ],
+    [
+      "441d5bd7-145a-4b53-9a3e-172683625c3a",
+      "Bus Interface"
+    ]
+  ],
+  "text_variables": {}
+}
